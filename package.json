@@ -1,0 +1,28 @@
+{
+  "name": "geopins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --ignore client/ server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.3.1",
+    "apollo-server-cache-memcached": "^0.6.6",
+    "apollo-server-plugin-response-cache": "^0.5.3",
+    "dataloader": "^2.0.0",
+    "dotenv": "^6.2.0",
+    "google-auth-library": "^3.0.1",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.4.6",
+    "react-recaptcha-v3": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
